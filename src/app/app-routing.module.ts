@@ -12,7 +12,9 @@ import { NyComponent } from './ny/ny.component';
 import { TechComponent } from './tech/tech.component';
 import { HealthComponent } from './health/health.component';
 import { SportsComponent } from './sports/sports.component';
-import { BooksComponent } from './books/books.component'
+import { BooksComponent } from './books/books.component';
+import { BussinessComponent } from './bussiness/bussiness.component';
+import { FoodComponent } from './food/food.component';
 
 
 const routes: Routes = [
@@ -66,6 +68,14 @@ const routes: Routes = [
 {
   path:"books",
   component:BooksComponent
+},
+{
+  path:"bussiness",
+  component: BussinessComponent
+},
+{
+  path:"food",
+  component:FoodComponent
 }
 
 ];

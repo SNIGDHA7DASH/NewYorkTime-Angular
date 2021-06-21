@@ -20,6 +20,8 @@ import { HealthComponent } from './health/health.component';
 import { SportsComponent } from './sports/sports.component';
 import { FormsModule } from '@angular/forms';
 import { BooksComponent } from './books/books.component';
+import { BussinessComponent } from './bussiness/bussiness.component';
+import { FoodComponent } from './food/food.component';
 
 
 @NgModule({
@@ -40,6 +42,8 @@ import { BooksComponent } from './books/books.component';
     HealthComponent,
     SportsComponent,
     BooksComponent,
+    BussinessComponent,
+    FoodComponent,
     
   ],
   imports: [

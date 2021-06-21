@@ -1,0 +1,22 @@
+<div>
+    <h1 style="padding: 5px;">BUSINESS</h1>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+      <div class="card mx-auto my-3" style="width: 20rem;" *ngFor="let busines of business">
+        <img class="card-img-top" src="{{busines.multimedia[2].url}}" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title text-center mb-3" style="color: red;">
+             {{busines.title}}
+          </h6>
+          <div class="heading text-center">{{busines.abstract}}</div>
+              <div class="text-center mt-3"> published {{busines.byline}} </div> 
+              <div class="text-center mt-3"> on {{busines.created_date}} , {{busines.section}}</div>
+            <div class="text-center mt-4">
+              <a href="{{busines.url}}" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+            </div>
+            </div>
+            </div>
+          </div>
