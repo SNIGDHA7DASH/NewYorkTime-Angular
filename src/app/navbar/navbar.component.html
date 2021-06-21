@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- <span class="sr-only">(current)</span> -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/" >Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/us" >U.S.</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/politics" >Politics</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/ny" >N.Y.</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/opinion" >Opinion</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/tech" >Tech</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/science" >Science</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/sports" >Sports</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/health" >Health</a>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/arts" >Arts</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "/books" >Books</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >Style</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >Food</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >Travel</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >Magazine</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >TMagazine</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink = "" >Real state</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <input class="form-control" [(ngModel)] ="key" type="text" placeholder="Search " aria-label="search">
+        <button class="btn btn-outline-success my-2 my-sm-0" (click) = "fetchNews()" >search </button>
+      </div>
+    </div>
+  </nav>
